@@ -12,7 +12,7 @@
         </p>
       </blockquote>
     </div>
-    <img style="visibility:hidden" src="/images/zitat-img.png" />
+    <g-image style="visibility:hidden" src="/images/zitat-img.png" />
   </section>
 </template>
 
