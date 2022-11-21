@@ -31,7 +31,7 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
-g-image {
+img {
   width: 100%;
 }
 div {
@@ -82,7 +82,7 @@ p {
 }
 
 @media (max-width: $tablet-break) {
-  g-image {
+  img {
     display: none;
   }
   div {
