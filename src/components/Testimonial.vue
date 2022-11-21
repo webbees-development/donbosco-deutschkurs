@@ -12,7 +12,7 @@
         </p>
       </blockquote>
     </div>
-    <g-image style="visibility:hidden" src="/images/zitat-img.png" />
+    <g-image style="visibility:hidden" src="../assets/images/zitat-img.png" />
   </section>
 </template>
 
@@ -31,7 +31,7 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
-img {
+g-image {
   width: 100%;
 }
 div {
@@ -82,7 +82,7 @@ p {
 }
 
 @media (max-width: $tablet-break) {
-  img {
+  g-image {
     display: none;
   }
   div {
