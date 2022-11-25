@@ -1,11 +1,36 @@
 <template>
-  <Layout> </Layout>
+  <Layout>
+    <Hero />
+    <AboutUs />
+    <Appointment />
+    <Participate />
+    <Photos />
+    <Testimonial />
+    <Ending />
+  </Layout>
 </template>
 
 <script>
+import Hero from "../components/Hero.vue";
+import AboutUs from "../components/AboutUs.vue";
+import Appointment from "../components/Appointment.vue";
+import Participate from "../components/Participate.vue";
+import Photos from "../components/Photos.vue";
+import Testimonial from "../components/Testimonial.vue";
+import Ending from "../components/Ending.vue";
+
 export default {
   metaInfo: {
     title: "Hello, world!",
+  },
+  components: {
+    Hero,
+    AboutUs,
+    Appointment,
+    Participate,
+    Photos,
+    Testimonial,
+    Ending,
   },
 };
 </script>
