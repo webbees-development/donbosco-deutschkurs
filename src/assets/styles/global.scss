@@ -29,17 +29,9 @@ $mobile-break: 600px;
   --fs-500: 1.875em;
   --fs-600: 3.125em;
 
-  --fs-nav: var(--fs-300);
   --fs-primary-heading: var(--fs-600);
   --fs-secondary-heading: var(--fs-500);
   --fs-button: var(--fs-200);
-
-  // @media (max-width: 50rem) {
-  //   --fs-nav: var(--fs-300);
-  //   --fs-primary-heading: var(--fs-600);
-  //   --fs-secondary-heading: var(--fs-400);
-  //   --fs-button: var(--fs-400);
-  // }
 
   --padding-global-inline: min(10vw, 11rem);
 
@@ -183,9 +175,9 @@ button {
   background-color: var(--clr-primary);
 }
 
-button:hover,
-button:focus-visible {
-}
+// button:hover,
+// button:focus-visible {
+// }
 
 nav {
   color: var(--clr-primary);
@@ -195,6 +187,12 @@ nav {
 
   @media (max-width: $tablet-break) {
     font-size: var(--fs-500);
+  }
+  @media (max-width: $mobile-break) {
+    font-size: var(--fs-400);
+  }
+  @media (max-width: 380px) {
+    font-size: var(--fs-300);
   }
 }
 h1,
