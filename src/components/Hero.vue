@@ -70,6 +70,8 @@ export default {
   --clr-fig-caption: #707070;
   --clr-languages-bg: #d4c5b581;
   --clr-languages-font: #ffffff74;
+
+  overflow: hidden;
 }
 
 blockquote {
@@ -126,8 +128,6 @@ p.author {
   font-size: var(--fs-600);
   font-weight: bold;
   line-height: 1.4;
-
-  overflow: hidden;
 }
 
 .content {
