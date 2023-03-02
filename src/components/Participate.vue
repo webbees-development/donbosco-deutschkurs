@@ -65,7 +65,16 @@ figure {
 }
 figure:nth-child(2) {
   padding-inline: 4rem;
+  img {
+    object-position: 0 10%;
+  }
 }
+figure:nth-child(3) {
+  img {
+    object-position: 0 10%;
+  }
+}
+
 figcaption {
   margin-block-start: 2rem;
 }
@@ -113,7 +122,6 @@ a {
 }
 
 .image-container > img {
-  //width: 100%;
   padding: 6.5% 4.1% 13% 4.5%;
   object-fit: cover;
   aspect-ratio: 1.3;
