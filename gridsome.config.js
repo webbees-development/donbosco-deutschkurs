@@ -7,7 +7,7 @@
 module.exports = {
   icon: {
     favicon: {
-      src: "./src/assets/images/favicon.png",
+      src: "./src/assets/images/logo/favicon.png",
       sizes: [16, 32, 96],
     },
     touchicon: {
