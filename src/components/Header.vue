@@ -4,7 +4,7 @@
       <div class="logo">
         <g-link
           ><g-image
-            src="../assets/images/logo.png"
+            src="../assets/images/logo/logo.png"
             alt="Don Bosco für Flüchtlinge Logo"
           ></g-image
         ></g-link>
@@ -216,13 +216,13 @@ li + li {
     right: var(--padding-global-inline);
     z-index: 9999;
     background-color: transparent;
-    background-image: url("../assets/images/icon-hamburger.svg");
+    background-image: url("../assets/images/icon/icon-hamburger.svg");
     background-repeat: no-repeat;
     width: var(--item-width);
     border: none;
     aspect-ratio: 1;
     &[aria-expanded="true"] {
-      background-image: url("../assets/images/icon-close.svg");
+      background-image: url("../assets/images/icon/icon-close.svg");
     }
 
     @media (max-width: $mobile-break) {

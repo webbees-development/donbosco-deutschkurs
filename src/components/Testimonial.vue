@@ -12,7 +12,10 @@
         </p>
       </blockquote>
     </div>
-    <g-image style="visibility:hidden" src="../assets/images/zitat-img.png" />
+    <g-image
+      style="visibility:hidden"
+      src="../assets/images/photo-section/zitat-img.png"
+    />
   </section>
 </template>
 
@@ -21,7 +24,7 @@
 
 .testimonial {
   position: relative;
-  background-image: url("../assets/images/zitat-img.png");
+  background-image: url("../assets/images/photo-section/zitat-img.png");
   background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
   background-repeat: no-repeat;

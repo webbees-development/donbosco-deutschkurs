@@ -1,6 +1,6 @@
 <template>
   <section id="about-us" class="about-us">
-    <g-image src="../assets/images/sprachen.png" />
+    <g-image src="../assets/images/index/sprachen.png" />
     <div>
       <h2>
         Wir helfen Flüchtlingen in Wien, um Perspektiven zu eröffnen. Sei auch
@@ -47,7 +47,7 @@ g-image {
 
 .about-us div {
   text-align: center;
-  background-image: url("../assets/images/bg_img.png");
+  background-image: url("../assets/images/index/bg_img.png");
 
   padding: 5.5rem 7.75rem;
 

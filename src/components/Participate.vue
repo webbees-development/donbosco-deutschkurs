@@ -7,7 +7,10 @@
     <div class="participate-container">
       <figure>
         <div class="image-container">
-          <g-image class="image" src="../assets/images/mithelfen-img1.png" />
+          <g-image
+            class="image"
+            src="../assets/images/photo-section/mithelfen-img1.jpg"
+          />
         </div>
         <figcaption>
           <h3>1. Probetermin vereinbaren</h3>
@@ -19,7 +22,10 @@
       </figure>
       <figure>
         <div class="image-container">
-          <g-image class="image" src="../assets/images/mithelfen-img1.png" />
+          <g-image
+            class="image"
+            src="../assets/images/photo-section/mithelfen-img2.jpg"
+          />
         </div>
         <figcaption>
           <h3>2. Sei bei einem Kurs dabei</h3>
@@ -31,7 +37,10 @@
       </figure>
       <figure>
         <div class="image-container">
-          <g-image class="image" src="../assets/images/mithelfen-img1.png" />
+          <g-image
+            class="image"
+            src="../assets/images/photo-section/mithelfen-img3.jpg"
+          />
         </div>
         <figcaption>
           <h3>3. Erlebe die Freude vor Ort</h3>
@@ -92,10 +101,10 @@ a {
   justify-content: center;
   align-items: flex-start;
 
-  padding-block: 2.5rem 6rem;
+  padding-block: 2.5rem 5rem;
 }
 .image-container {
-  background-image: url("../assets/images/rahmen2.png");
+  background-image: url("../assets/images/index/rahmen2.png");
   background-repeat: no-repeat;
   background-size: 100%;
 
@@ -104,8 +113,10 @@ a {
 }
 
 .image-container > img {
-  width: 100%;
-  padding: 6% 4% 14% 4%;
+  //width: 100%;
+  padding: 6.5% 4.1% 13% 4.5%;
+  object-fit: cover;
+  aspect-ratio: 1.3;
 }
 
 @media (max-width: $tablet-break) {
@@ -113,7 +124,7 @@ a {
     flex-direction: column;
     align-items: center;
 
-    padding-block: 4rem 8rem;
+    padding-block: 4rem 7rem;
 
     a {
       white-space: normal;
@@ -159,7 +170,9 @@ a {
         }
       }
     }
-
+    figcaption {
+      margin-block-start: 1rem;
+    }
     figcaption h3 {
       flex-shrink: 1;
     }
@@ -169,12 +182,6 @@ a {
 
     h3 {
       min-width: 15ch;
-    }
-
-    img {
-      min-width: 0;
-      flex-shrink: 2;
-      max-width: 35rem;
     }
   }
 }

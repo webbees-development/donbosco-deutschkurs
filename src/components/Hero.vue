@@ -2,7 +2,10 @@
   <section class="hero" id="hero">
     <figure class="image-container">
       <div class="image">
-        <g-image src="../assets/images/mithelfen-img1.png" alt="" />
+        <g-image
+          src="../assets/images/photo-section/mithelfen-img1.png"
+          alt=""
+        />
       </div>
       <figcaption>
         <blockquote>
@@ -152,7 +155,7 @@ button {
 }
 
 .hero {
-  background-image: url("../assets/images/bg_img.png");
+  background-image: url("../assets/images/index/bg_img.png");
 
   display: flex;
   padding-block: 6rem;
@@ -173,7 +176,7 @@ button {
   width: min(12%, 13.5rem);
   aspect-ratio: 0.96;
 
-  background-image: url("../assets/images/heart-with-hands.svg");
+  background-image: url("../assets/images/index/heart-with-hands.svg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -202,7 +205,7 @@ button {
 .image {
   position: relative;
 
-  background-image: url("../assets/images/rahmen.png");
+  background-image: url("../assets/images/index/rahmen.png");
   background-repeat: no-repeat;
   background-size: 100%;
 

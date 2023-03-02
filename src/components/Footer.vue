@@ -2,7 +2,7 @@
   <footer>
     <div class="footer_content_1">
       <a class="logo" href="#"
-        ><g-image src="../assets/images/logo.png" alt="Don Bosco Logo" />
+        ><g-image src="../assets/images/logo/logo.png" alt="Don Bosco Logo" />
       </a>
     </div>
     <div class="footer_content_2">
@@ -76,7 +76,7 @@ export default {
 footer {
   color: var(--clr-primary);
   font-family: var(--ff-primary);
-  background-image: url("../assets/images/bg_img.png");
+  background-image: url("../assets/images/index/bg_img.png");
   padding-block: 4.5rem 1rem;
 }
 
@@ -208,10 +208,10 @@ nav {
   height: 2rem;
 }
 .facebook {
-  background-image: url("../assets/images/facebook-f.svg");
+  background-image: url("../assets/images/icon/facebook-f.svg");
   padding-right: 2.5rem;
 }
 .instagram {
-  background-image: url("../assets/images/instagram.svg");
+  background-image: url("../assets/images/icon/instagram.svg");
 }
 </style>

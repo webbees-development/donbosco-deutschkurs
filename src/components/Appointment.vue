@@ -12,7 +12,7 @@
       <button>Probetermin vereinbaren</button>
     </div>
     <div class="image">
-      <g-image src="../assets/images/haende.jpg" />
+      <g-image src="../assets/images/photo-section/haende.jpg" />
     </div>
   </section>
 </template>
@@ -20,7 +20,7 @@
 <style lang="scss" scoped>
 @import "~/assets/styles/global.scss";
 .appointment {
-  background-image: url("../assets/images/bg_img.png");
+  background-image: url("../assets/images/index/bg_img.png");
 
   display: flex;
   justify-content: flex-end;
