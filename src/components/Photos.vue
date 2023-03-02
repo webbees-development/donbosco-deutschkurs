@@ -57,7 +57,7 @@
 }
 
 .photos-grid {
-  padding-block: 3rem 4rem;
+  padding-block: 3.5rem 4rem;
   display: grid;
   gap: 1.5rem;
 
@@ -69,7 +69,7 @@
   @media (max-width: $mobile-break) {
     grid-template-columns: repeat(2, 1fr);
     .photo:nth-of-type(even) {
-      grid-column: 2/5;
+      grid-column: 2/3;
       img {
         aspect-ratio: 1;
       }
