@@ -225,3 +225,20 @@ p {
     line-height: 1.6;
   }
 }
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 1em 2.25em;
+
+  font-weight: bold;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-button);
+  letter-spacing: 1px;
+  line-height: 1.25;
+  text-transform: uppercase;
+
+  color: var(--clr-neutral);
+  background-color: var(--clr-primary);
+}
