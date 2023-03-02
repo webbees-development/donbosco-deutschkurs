@@ -7,25 +7,46 @@
     </p>
     <div class="photos-grid">
       <div class="photo">
-        <g-image src="../assets/images/photos-1.jpg" alt=""></g-image>
+        <g-image
+          src="../assets/images/photo-section/photos-1.jpg"
+          alt=""
+        ></g-image>
       </div>
       <div class="photo">
-        <g-image src="../assets/images/photos-2.jpg" alt=""></g-image>
+        <g-image
+          src="../assets/images/photo-section/photos-2.png"
+          alt=""
+        ></g-image>
       </div>
       <div class="photo">
-        <g-image src="../assets/images/photos-4.jpg" alt=""></g-image>
+        <g-image
+          src="../assets/images/photo-section/photos-4.jpg"
+          alt=""
+        ></g-image>
       </div>
       <div class="photo">
-        <g-image src="../assets/images/photos-9.jpg" alt=""></g-image>
+        <g-image
+          src="../assets/images/photo-section/photos-9.jpg"
+          alt=""
+        ></g-image>
       </div>
       <div class="photo">
-        <g-image src="../assets/images/photos-3.jpg" alt=""></g-image>
+        <g-image
+          src="../assets/images/photo-section/photos-3.jpg"
+          alt=""
+        ></g-image>
       </div>
       <div class="photo">
-        <g-image src="../assets/images/photos-8.jpg" alt=""></g-image>
+        <g-image
+          src="../assets/images/photo-section/photos-8.jpg"
+          alt=""
+        ></g-image>
       </div>
       <div class="photo">
-        <g-image src="../assets/images/photos-5.jpg" alt=""></g-image>
+        <g-image
+          src="../assets/images/photo-section/photos-5.jpg"
+          alt=""
+        ></g-image>
       </div>
     </div>
     <g-link class="btn" to="/photos">Zu allen Fotos</g-link>
@@ -57,7 +78,7 @@
 }
 
 .photos-grid {
-  padding-block: 3.5rem 4rem;
+  padding-block: 3.5rem 6rem;
   display: grid;
   gap: 1.5rem;
 
@@ -86,7 +107,7 @@
   }
   @media (max-width: 400px) {
     display: block;
-    padding-block: 2.5rem 2rem;
+    padding-block: 2.5rem 3rem;
 
     .photo:nth-child(n) {
       img {
