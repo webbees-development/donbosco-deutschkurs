@@ -1,5 +1,5 @@
 {
-  "name": "gridsome-create",
+  "name": "don-bosco-fuer-fluechtlinge",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -7,6 +7,12 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "sass": "^1.56.1",
+    "sass-loader": "^10.4.1"
   }
 }

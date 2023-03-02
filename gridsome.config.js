@@ -16,7 +16,19 @@ module.exports = {
       precomposed: true,
     },
   },
+  plugins: [
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "./src/data/posts/*.md",
+        typeName: "Post",
+      },
+    },
+  ],
   siteName: "Don Bosco für Flüchtlinge",
-  siteUrl: "",
+  siteUrl: "https://stb.webbees.at",
+  templates: {
+    Post: "/news/:id",
+  },
   titleTemplate: "%s | Don Bosco für Flüchtlinge",
 };
