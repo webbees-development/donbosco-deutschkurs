@@ -16,10 +16,10 @@
 
       <nav>
         <ul aria-label="Primary" role="list" class="nav-list">
-          <li><a href="#hero">Startseite</a></li>
-          <li><a href="#about-us">Über uns</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#photos">Fotos</a></li>
+          <li><g-link to="/">Startseite</g-link></li>
+          <li><g-link to="/#about-us">Über uns</g-link></li>
+          <li><g-link to="/#blog">Blog</g-link></li>
+          <li><g-link to="/#photos">Fotos</g-link></li>
         </ul>
       </nav>
 

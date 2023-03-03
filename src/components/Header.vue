@@ -2,7 +2,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <g-link
+        <g-link to="/"
           ><g-image
             src="../assets/images/logo/logo.png"
             alt="Don Bosco für Flüchtlinge Logo"
@@ -32,10 +32,10 @@
 
     <nav id="primary-navigation" data-visible="false">
       <ul>
-        <li><a href="#about-us">Über uns</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#photos">Fotos</a></li>
-        <li><a href="#contact">Kontakt</a></li>
+        <li><g-link to="/#about-us">Über uns</g-link></li>
+        <li><g-link to="/#blog">Blog</g-link></li>
+        <li><g-link to="/#photos">Fotos</g-link></li>
+        <li><g-link to="/#contact">Kontakt</g-link></li>
       </ul>
     </nav>
   </header>
