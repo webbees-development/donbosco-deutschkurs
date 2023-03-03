@@ -61,6 +61,12 @@ $mobile-break: 600px;
   @media (max-width: $mobile-break) {
     font-size: 10px;
   }
+
+  @media (max-width: 380px) {
+    font-size: 9px;
+
+    --fs-600: 2.3em;
+  }
 }
 
 /* Box sizing rules */
