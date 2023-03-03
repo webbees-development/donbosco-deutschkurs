@@ -2,10 +2,7 @@
   <section class="hero" id="hero">
     <figure class="image-container">
       <div class="image">
-        <g-image
-          src="../assets/images/photo-section/mithelfen-img1.png"
-          alt=""
-        />
+        <g-image src="../assets/images/index/mithelfen-img1.png" alt="" />
       </div>
       <figcaption>
         <blockquote>
