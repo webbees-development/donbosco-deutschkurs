@@ -132,7 +132,7 @@ a {
     flex-direction: column;
     align-items: center;
 
-    padding-block: 4rem 7rem;
+    padding-block: 4rem 5rem;
 
     a {
       white-space: normal;
