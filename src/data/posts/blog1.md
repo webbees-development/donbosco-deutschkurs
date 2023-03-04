@@ -1,7 +1,31 @@
 ---
-id: bei-unseren-festen-gibts-jede-menge-spaß
-image: "/images/blog-img1.png"
-title: Bei unseren Festen gibt’s jede Menge Spaß
-description: Viele Deutschkurse bieten viele Gründe, um anständig zu feiern...
-date: 2022-12-01
+id: news-id-1
+title: title B1
+description: Description
+excerpt:
+date: 2022-01-01
+featured_image:
+  src: ./images/blog-img1.png
+  alt: Blog1
+gallery_images:
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
+  - src: ./images/blog-img1.png
+    alt: ""
 ---
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
