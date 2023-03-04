@@ -31,11 +31,14 @@
     </button>
 
     <nav id="primary-navigation" data-visible="false">
-      <ul>
+      <ul v-if="$route.path === '/'">
         <li><g-link to="/#about-us">Über uns</g-link></li>
         <li><g-link to="/#blog">Blog</g-link></li>
         <li><g-link to="/#photos">Fotos</g-link></li>
         <li><g-link to="/#contact">Kontakt</g-link></li>
+      </ul>
+      <ul v-else>
+        <li><g-link to="/"> ← zurück zur Startseite</g-link></li>
       </ul>
     </nav>
   </header>
