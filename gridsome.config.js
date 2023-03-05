@@ -24,6 +24,13 @@ module.exports = {
         typeName: "Post",
       },
     },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "./src/data/flags/*.md",
+        typeName: "Flag",
+      },
+    },
   ],
   siteName: "Don Bosco für Flüchtlinge",
   siteUrl: "https://stb.webbees.at",

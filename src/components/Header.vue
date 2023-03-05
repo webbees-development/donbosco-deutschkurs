@@ -16,9 +16,10 @@
           :key="index"
           class="flag"
           data-visible="false"
-          :src="require(`!!assets-loader!~/data/flags/${flag.src}`)"
-          alt=""
-        ></g-image>
+          :src="require(`!!assets-loader!~/data/flags/${flag.node.image.src}`)"
+          :alt="flag.node.image.alt"
+        >
+        </g-image>
       </div>
     </div>
 
@@ -44,19 +45,35 @@
   </header>
 </template>
 
-<script>
-import { flags } from "~/data/flags/flags.json";
+<static-query>
+query {
+  allFlag {
+    edges {
+      node {
+        image{
+          src
+          alt
+        }
+      }
+    }
+  }
+}
+</static-query>
 
+<script>
 export default {
   data() {
     return {
-      flags,
+      flags: [],
     };
   },
   mounted() {
     this.toggleMobileNavigation();
     this.initSectionObserver();
     this.changeFlag();
+  },
+  created() {
+    this.flags.push(...this.$static.allFlag.edges);
   },
   methods: {
     toggleMobileNavigation() {
