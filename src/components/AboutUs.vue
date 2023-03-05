@@ -7,15 +7,14 @@
         dabei!
       </h2>
       <p>
-        Die Initiative „Don Bosco für Flüchtlinge“ wurde im 2015 von Salesianern
-        Don Boscos gemeinsam mit Freiwilligen gestartet. Derzeit im Angebot sind
-        zwei Deutsch-Intensivkurse, Beratung sowie Kultur- und Freizeitangebote,
-        die alle im Salesianum abgehalten werden. Mit den Angeboten werden
-        derzeit rund 70 geflüchtete Menschen erreicht. Alle Aktivitäten für
-        Flüchtlinge beruhen auf freiwilligem Engagement und rund 60 Freiwillige
-        engagieren sich ein oder mehrmals pro Woche.
+        „Don Bosco für Flüchtlinge“ wurde im Jahr 2015 als Initiative der
+        Salesianer Don Boscos gegründet und baut vor allem auf dem Engagement
+        von Freiwilligen auf. Die Hauptaktivität sind Intensiv-Deutschkurse.
+        Neben dem Spracherwerb, kommen auch Spiele, gegenseitiges Kennenlernen
+        und Veranstaltungen wie ein interreligiöses Friedensgebet, Ausflüge und
+        Feste nicht zu kurz. Was uns besonders freut? „Don Bosco für
+        Flüchtlinge“ ist für viele ein zweites Zuhause geworden.
       </p>
-      <!-- <button>Probetermin vereinbaren</button> -->
     </div>
   </section>
 </template>
