@@ -22,7 +22,9 @@
         Komm zu einem unserer Deutschkurse <br />für Flüchtlinge aus
         verschiedenen Ländern.
       </p>
-      <button>Probetermin vereinbaren</button>
+      <g-link class="btn" :to="$static.metadata.calendly_url"
+        >Probetermin vereinbaren</g-link
+      >
     </div>
     <div class="background-languages">
       <span class="welcome">
@@ -45,6 +47,14 @@
     </div>
   </section>
 </template>
+
+<static-query>
+query {
+  metadata {
+    calendly_url
+  }
+}
+</static-query>
 
 <script lang="js">
 
@@ -92,7 +102,7 @@ blockquote::after {
   content: "“";
 }
 
-button {
+a {
   margin-block-start: 2.5rem;
 }
 
@@ -137,7 +147,7 @@ p.author {
 }
 
 .content p,
-button {
+a {
   margin-inline-start: 2.5rem;
 }
 
@@ -215,7 +225,7 @@ button {
 }
 
 @media (max-width: $tablet-break) {
-  button {
+  a {
     margin-block-start: 3rem;
     margin-inline: auto;
   }

@@ -9,13 +9,23 @@
         Nimm dir 2 Stunden, teile deine Sprache Deutsch und bereichere damit
         (d)ein ganzes Leben.
       </p>
-      <button>Probetermin vereinbaren</button>
+      <g-link class="btn" :to="$static.metadata.calendly_url"
+        >Probetermin vereinbaren</g-link
+      >
     </div>
     <div class="image">
       <g-image src="../assets/images/photo-section/haende.jpg" />
     </div>
   </section>
 </template>
+
+<static-query>
+query {
+  metadata {
+    calendly_url
+  }
+}
+</static-query>
 
 <style lang="scss" scoped>
 @import "~/assets/styles/global.scss";
@@ -39,7 +49,7 @@ h2 {
   max-width: 16ch;
 }
 p,
-button {
+a {
   margin-inline-start: 2.5rem;
 }
 
@@ -82,7 +92,7 @@ p {
     }
   }
   p,
-  button {
+  a {
     margin-inline-start: 0;
   }
   p {

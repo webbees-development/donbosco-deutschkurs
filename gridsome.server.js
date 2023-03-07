@@ -7,7 +7,10 @@
 
 module.exports = function(api) {
   api.loadSource(async (store) => {
-    store.addMetadata("url", "https://calendly.com/donbosco-deutschkurs/30min");
+    store.addMetadata(
+      "calendly_url",
+      "https://calendly.com/donbosco-deutschkurs/30min"
+    );
   });
   // api.loadSource(({ addCollection }) => {
   //   // Use the Data Store API here: https://gridsome.org/docs/data-store-api/

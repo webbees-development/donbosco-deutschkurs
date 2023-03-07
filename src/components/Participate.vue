@@ -15,8 +15,11 @@
         <figcaption>
           <h3>1. Probetermin vereinbaren</h3>
           <p>
-            Klicke auf den Button <a>„Probetermin vereinbaren“</a> und such’ dir
-            einen Abend aus, an dem du dir 2 Stunden Zeit nimmst.
+            Klicke auf den Button
+            <g-link :to="$static.metadata.calendly_url"
+              >„Probetermin vereinbaren“</g-link
+            >
+            und such’ dir einen Abend aus, an dem du dir 2 Stunden Zeit nimmst.
           </p>
         </figcaption>
       </figure>
@@ -52,9 +55,19 @@
         </figcaption>
       </figure>
     </div>
-    <button>Probetermin vereinbaren</button>
+    <g-link class="btn" :to="$static.metadata.calendly_url"
+      >Probetermin vereinbaren</g-link
+    >
   </section>
 </template>
+
+<static-query>
+query {
+  metadata {
+    calendly_url
+  }
+}
+</static-query>
 
 <style lang="scss" scoped>
 @import "~/assets/styles/global.scss";

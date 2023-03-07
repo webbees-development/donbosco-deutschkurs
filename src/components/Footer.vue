@@ -11,7 +11,9 @@
           Wir helfen Flüchtlingen in Wien, um <br />Perspektiven zu eröffnen.
           Sei’ auch dabei.
         </h3>
-        <button>Probetermin vereinbaren</button>
+        <g-link class="btn" :to="$static.metadata.calendly_url"
+          >Probetermin vereinbaren</g-link
+        >
       </div>
 
       <nav>
@@ -59,6 +61,14 @@
     </div>
   </footer>
 </template>
+
+<static-query>
+query {
+  metadata {
+    calendly_url
+  }
+}
+</static-query>
 
 <script>
 export default {
@@ -156,7 +166,7 @@ nav {
     h3 {
       margin-bottom: 0;
     }
-    button {
+    a {
       display: none;
     }
   }
