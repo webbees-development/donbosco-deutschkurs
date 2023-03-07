@@ -6,11 +6,6 @@
         Unsere Fotogalerie ist bunt und voller Leben. <br />Schau’ dich gerne
         um:
       </p>
-      <!-- <div class="photos-container">
-        <figure v-for="(photo, index) in photos" :key="index">
-          <g-image :src="photo.pathLong"></g-image>
-        </figure>
-      </div> -->
       <div class="photos-container">
         <figure v-for="(photo, index) in photos" :key="index">
           <div class="photo-card">
@@ -53,8 +48,9 @@ export default {
 
 .photos {
   text-align: center;
+  background-image: url("../assets/images/index/bg_img.png");
   padding-inline: var(--padding-global-inline);
-  padding-block: 4rem 10rem;
+  padding-block: 4rem 2em;
   br {
     display: none;
   }
