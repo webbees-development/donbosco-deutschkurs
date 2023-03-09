@@ -2,7 +2,7 @@
   <section class="hero" id="hero">
     <figure class="image-container">
       <div class="image">
-        <g-image src="../assets/images/index/mithelfen-img1.png" alt="" />
+        <g-image src="../assets/images/photo-section/photos-27.jpg" alt="" />
       </div>
       <figcaption>
         <blockquote>
@@ -100,6 +100,7 @@ blockquote::before {
 
 blockquote::after {
   content: "“";
+  position: absolute;
 }
 
 a {
@@ -221,7 +222,9 @@ a {
 
 .image > img {
   width: 100%;
-  padding: 13% 12% 20% 11%;
+  padding: 13% 12% 22% 11%;
+  aspect-ratio: 1.2;
+  object-fit: cover;
 }
 
 @media (max-width: $tablet-break) {
@@ -240,9 +243,10 @@ a {
     right: 0;
     bottom: 80%;
 
-    font-size: 20px;
+    font-size: 25px;
 
     white-space: nowrap;
+    overflow: hidden;
 
     span {
       position: relative;
@@ -325,7 +329,6 @@ a {
     flex-direction: column;
     justify-content: center;
   }
-
   .image {
     width: 100%;
   }
