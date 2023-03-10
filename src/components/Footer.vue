@@ -1,9 +1,9 @@
 <template>
   <footer>
     <div class="footer_content_1">
-      <a class="logo" href="#"
+      <g-link class="logo" href="#"
         ><g-image src="../assets/images/logo/logo.png" alt="Don Bosco Logo" />
-      </a>
+      </g-link>
     </div>
     <div class="footer_content_2">
       <div>
@@ -32,23 +32,23 @@
           <p>1030 Wien</p>
           <p>
             Mail:
-            <a href="mailto:donbosco.deutschkurs@gmail.com"
-              >donbosco.deutschkurs@gmail.com</a
+            <g-link href="mailto:donbosco.deutschkurs@gmail.com"
+              >donbosco.deutschkurs@gmail.com</g-link
             >
           </p>
         </div>
 
         <div class="social-media">
-          <a
+          <g-link
             class="facebook"
             href="https://www.facebook.com/donbosco.fuerfluechtlinge"
           >
-          </a
-          ><a
+          </g-link
+          ><g-link
             class="instagram"
             href="https://www.instagram.com/donbosco4refugees/"
           >
-          </a>
+          </g-link>
         </div>
       </div>
     </div>
@@ -127,7 +127,7 @@ nav {
 
   a:hover,
   a:focus-visible {
-    filter: brightness(140%);
+    filter: brightness(105%);
   }
 
   @media (max-width: $tablet-break) {
@@ -166,7 +166,7 @@ nav {
     h3 {
       margin-bottom: 0;
     }
-    a {
+    .btn {
       display: none;
     }
   }
