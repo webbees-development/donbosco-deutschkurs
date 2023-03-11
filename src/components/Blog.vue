@@ -15,7 +15,7 @@
   </section>
 </template>
 
-<static-query>
+<!-- <static-query>
 query Posts {
   posts: allPost(limit: 6, sortBy: "date") {
     edges {
@@ -31,7 +31,7 @@ query Posts {
     }
   }
 }
-</static-query>
+</static-query> -->
 
 <script>
 // import GenericSlider from "./GenericSlider.vue";
