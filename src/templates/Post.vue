@@ -71,12 +71,12 @@
                 ></g-image>
               </figure>
             </div>
-            <LightBox
+            <!-- <LightBox
               :imageObjects="$page.post.gallery_images"
               :visible="lightBoxVisible"
               @closeLightBox="hideLightBox"
             >
-            </LightBox>
+            </LightBox> -->
           </div>
         </article>
       </div>
@@ -112,7 +112,7 @@ import EmailShareButton from "../components/share_buttons/EmailShareButton.vue";
 import FacebookShareButton from "../components/share_buttons/FacebookShareButton.vue";
 import PinterestShareButton from "../components/share_buttons/PinterestShareButton.vue";
 import TwitterShareButton from "../components/share_buttons/TwitterShareButton.vue";
-import LightBox from "../components/LightBox.vue";
+// import LightBox from "../components/LightBox.vue";
 import SEO from "../mixins/SEO.vue";
 
 export default {
@@ -121,7 +121,7 @@ export default {
     FacebookShareButton,
     PinterestShareButton,
     TwitterShareButton,
-    LightBox,
+    // LightBox,
     SEO,
   },
   mixins: [SEO],
