@@ -17,13 +17,13 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "./src/data/posts/*.md",
-        typeName: "Post",
-      },
-    },
+    // {
+      // use: "@gridsome/source-filesystem",
+      // options: {
+      //   path: "./src/data/posts/*.md",
+      //   typeName: "Post",
+      // },
+    // },
     {
       use: "@gridsome/source-filesystem",
       options: {
