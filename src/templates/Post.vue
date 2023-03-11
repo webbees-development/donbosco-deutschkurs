@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <Layout>
     <section class="article">
       <div>
@@ -220,4 +220,4 @@ section.article > div {
 .share-buttons {
   margin-block-start: 1rem;
 }
-</style>
+</style> -->
