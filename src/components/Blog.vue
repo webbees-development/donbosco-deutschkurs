@@ -1,7 +1,7 @@
 <template>
   <section id="blog" class="blog">
     <h2>Erfolgsgeschichten & Worte der Dankbarkeit</h2>
-    <GenericSlider>
+    <!-- <GenericSlider>
       <PostPreview
         v-for="{ node } in loadedPosts"
         :key="node.id"
@@ -11,7 +11,7 @@
         :title="node.title"
         :excerpt="node.excerpt"
       />
-    </GenericSlider>
+    </GenericSlider> -->
   </section>
 </template>
 
@@ -34,13 +34,13 @@ query Posts {
 </static-query>
 
 <script>
-import GenericSlider from "./GenericSlider.vue";
-import PostPreview from "./PostPreview.vue";
+// import GenericSlider from "./GenericSlider.vue";
+// // import PostPreview from "./PostPreview.vue";
 
 export default {
   components: {
-    GenericSlider,
-    PostPreview,
+    // GenericSlider,
+    // PostPreview,
   },
   data() {
     return {
@@ -60,7 +60,7 @@ h2 {
   padding-block-end: 3.125rem;
 }
 .blog {
-  background-image: url("../assets/images/bg_img.png");
+  background-image: url("../assets/images/index/bg_img.png");
   padding-block: 9rem;
   padding-inline: 15.8rem;
   @media (max-width: 1250px) {
