@@ -76,7 +76,7 @@
               :visible="lightBoxVisible"
               @closeLightBox="hideLightBox"
             >
-            </LightBox> -->
+            </LightBox> 
           </div>
         </article>
       </div>
