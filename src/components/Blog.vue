@@ -37,21 +37,21 @@ query Posts {
 // import GenericSlider from "./GenericSlider.vue";
 // // import PostPreview from "./PostPreview.vue";
 
-export default {
-  components: {
-    // GenericSlider,
-    // PostPreview,
-  },
-  data() {
-    return {
-      loadedPosts: [],
-    };
-  },
-  created() {
-    this.loadedPosts.push(...this.$static.posts.edges);
-  },
-};
-</script>
+// export default {
+//   components: {
+//     // GenericSlider,
+//     // PostPreview,
+//   },
+//   data() {
+//     return {
+//       loadedPosts: [],
+//     };
+//   },
+//   created() {
+//     // this.loadedPosts.push(...this.$static.posts.edges);
+//   },
+// };
+// </script>
 
 <style lang="scss" scoped>
 @import "~/assets/styles/global.scss";
