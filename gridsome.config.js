@@ -34,8 +34,8 @@ module.exports = {
   ],
   siteName: "Don Bosco für Flüchtlinge",
   siteUrl: "https://stb.webbees.at",
-  templates: {
-    Post: "/news/:id",
-  },
+  // templates: {
+  //   Post: "/news/:id",
+  // },
   titleTemplate: "%s | Don Bosco für Flüchtlinge",
 };

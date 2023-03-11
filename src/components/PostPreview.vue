@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <transition name="fade" appear>
     <g-link :to="link">
       <figure>
@@ -87,4 +87,4 @@ p.read-more {
   text-underline-offset: 0.3rem;
   color: var(--clr-primary);
 }
-</style>
+</style> -->
